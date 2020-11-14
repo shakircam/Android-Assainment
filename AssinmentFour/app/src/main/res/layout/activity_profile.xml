@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ProfileActivity">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="200dp">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#3F51B5"
+            app:layout_constraintTop_toBottomOf="@id/imageView"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/nameEd"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/ageEd"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:inputType="phone"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/nameEd">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weightEd"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:inputType="phone"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/ageEd">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/consNew"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/noti"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/notification"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                >
+
+            </androidx.appcompat.widget.AppCompatTextView>
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintHorizontal_bias="0.836"
+                app:layout_constraintLeft_toRightOf="@+id/noti"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+            </CheckBox>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/notiEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="18sp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cons">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consNew"
+            app:layout_constraintTop_toBottomOf="@+id/weightEd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/Gender"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                >
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/gender_item"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/editBtn"
+            app:layout_constraintTop_toBottomOf="@+id/cons"
+            android:text="@string/Edit"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

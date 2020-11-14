@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#1E6AB1"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_blog_item"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/blog_image" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_blogTitle"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/iv_blog_item"
+        tools:text="Special food item with curry" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_authorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="16sp"
+            tools:text="Hasan Abdullah"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@+id/tv_blogTitle">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        tools:text="20-Nov-20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_authorName" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

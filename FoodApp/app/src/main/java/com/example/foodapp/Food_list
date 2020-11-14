@@ -1,0 +1,123 @@
+[
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/mpFQlLv.png"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/siwkNTx.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/3WxJho4.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/HSdjdlP.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/oSarUNL.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/zK1jHib.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/WDLhWAy.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/Fe2B5kY.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/U8UzefC.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/1YoOIM9.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/oqFNBA1.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/g9LfJNk.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://i.imgur.com/oh2kM0M.jpg"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://static.toiimg.com/photo/53110049.cms"
+  },
+  {
+        "id": 101,
+        "name": "Pizza Italizano",
+        "price": 279,
+        "discount": 10,
+        "isFavorite": true,
+        "imageUrl": "https://static.toiimg.com/photo/53110049.cms"
+  }
+
+  ]

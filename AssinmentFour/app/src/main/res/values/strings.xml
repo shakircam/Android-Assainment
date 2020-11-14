@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AssinmentFour</string>
+    <string name="name">Enter Name</string>
+    <string name="age">Enter Age</string>
+    <string name="weight">Enter Weight</string>
+    <string name="notification">Notification</string>
+    <string name="url">Image Url</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Gender">Gender</string>
+    <string name="Save">Save</string>
+    <string name="Edit">Edit</string>
+</resources>

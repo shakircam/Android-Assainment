@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="duration">Duration :</string>
+    <string name="month">3 month</string>
+    <string name="classNo">24</string>
+    <string name="noClass">No of Class :</string>
+    <string name="fee">Fee :</string>
+    <string name="feeT">15000 Tk</string>
+    <string name="days">Class Days</string>
+    <string name="login">Login</string>
+    <string name="id">vito@ninja</string>
+    <string name="password">12345</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="api_key">VGhpcyBpcyBBUEkgS0VZIGluIGJhc2U2NCBmb3JtYXQ=</string>
+
+    <string name="bio">Debra Carroll knows that successful students become successful adults.
+                       This is her 15th year at Edison Elementary School and her 10th year teaching fourth grade.
+                       So far, fourth grade is her favorite grade to teach! Mrs.
+                       Carroll was the 2011 Newell Unified School District Teacher of the Year,
+                       and received her National Board Certification in 2013.
+                       She loves science and majored in biology at Arizona State University,
+                       Where she also earned her teaching credential and Master of Education degree.
+                       Mrs. Carroll is excited to begin the best year ever!</string>
+    <string name="Biography">Biography :</string>
+    <string name="course">Course Information</string>
+    <string name="label">ID</string>
+    <string name="pass">Password</string>
+</resources>

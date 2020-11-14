@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloHasan</string>
+    <string name="author_name">Hasan Abdullah</string>
+    <string name="describe_item">Details</string>
+    <string name="toolbar_item">Hello Hasan</string>
+
+</resources>

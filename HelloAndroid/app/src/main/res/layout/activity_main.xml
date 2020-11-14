@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".feature.Information.view.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/new_toolbar"
+            layout="@layout/toolbar" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/new_toolbar"
+            app:layout_constraintStart_toStartOf="@+id/new_toolbar"
+            app:layout_constraintTop_toBottomOf="@+id/new_toolbar"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_item"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_margin="15dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@+id/new_toolbar"
+            android:src="@drawable/android" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_CourseName"
+            style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#705959"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/iv_item"
+            tools:text="Android Development" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_CourseName"
+            tools:layout_editor_absoluteX="0dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_blogTitle"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:text="@string/duration"
+                android:textColor="#705959"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_blog_duration"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                tools:text="@string/month"
+                android:textColor="#705959"
+                android:textSize="16sp"
+                app:layout_constraintHorizontal_bias="0.180"
+                app:layout_constraintLeft_toRightOf="@id/tv_blogTitle"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_noClass"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:text="@string/noClass"
+                android:textColor="#705959"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_blogTitle" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_no_class"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                tools:text="@string/classNo"
+                android:textColor="#705959"
+                app:layout_constraintStart_toEndOf="@id/tv_noClass"
+                app:layout_constraintTop_toBottomOf="@id/tv_blog_duration" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_noFee"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:text="@string/fee"
+                android:textColor="#705959"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_noClass" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_no_fee"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="110dp"
+                android:layout_marginStart="20dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                tools:text="@string/feeT"
+                android:textColor="#705959"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_no_class" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                android:id="@+id/tv_classDays"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:text="@string/days"
+                android:textColor="#705959"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_noFee" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewId"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:layout_constraintTop_toBottomOf="@+id/cons"
+            tools:listitem="@layout/item_days"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/url"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="10dp"
+            android:contextClickable="true"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/teal_700"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/recyclerViewId"
+            tools:text="Url" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginBt"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="35dp"
+            android:background="#E3D663"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/url"
+            app:layout_constraintVertical_bias="1.0"
+             />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

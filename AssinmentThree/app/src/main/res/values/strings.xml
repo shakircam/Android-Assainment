@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Assinment Three</string>
+    <string name="userName">Enter User Name</string>
+    <string name="label">Lavel</string>
+    <string name="password">Enter Your Password</string>
+    <string name="noAccount">Haven\'t Any Account? Register</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Enter your Name</string>
+    <string name="rePassword">Enter Re Password</string>
+    <string name="email">Enter Your Email</string>
+    <string name="phone">Enter Your Phone</string>
+    <string name="url">Enter Url Link</string>
+    <string name="openWebSite">Open My WebSite</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="updatePassword">Update Password</string>
+    <string name="logout">Logout</string>
+    <string name="shakir">Shakir</string>
+</resources>

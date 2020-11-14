@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assinment Two</string>
+    <string name="login">login</string>
+    <string name="Name">Name</string>
+    <string name="Age">Age</string>
+    <string name="Phone">Phone</string>
+    <string name="BodyWeight">Body Weight</string>
+    <string name="Profession">Profession</string>
+    <string name="Height">Height</string>
+    <string name="University">University</string>
+    <string name="Semister">Semester</string>
+    <string name="Save">Save</string>
+    <string name="Exit">Exit</string>
+</resources>
