@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="title">This is title</string>
+    <string name="description">This is description</string>
+    <string name="priority">This is priority</string>
+    <string name="update">Cancel</string>
+    <string name="Create">Save</string>
+    <string name="todo">TODO</string>
+    <string name="title_create_note">Create New Note</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="note_delete_alert">Are You Want To Delete?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_update_note">Note Update</string>
+    <string name="Update">Update</string>
+
+</resources>
